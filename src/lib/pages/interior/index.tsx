@@ -6,7 +6,8 @@ import ContactForm from "lib/components/ContactForm";
 import InteriorCarousell from "./InteriorCarousell";
 import InteriorFeatures from "./InteriorFeatures";
 import InteriorHeader from "./InteriorHeader";
-import InteriorTestimonial from "./InteriorTestimonial";
+// import InteriorTestimonial from "./InteriorTestimonial";
+import InteriorProjects from "./InteriorProjects";
 
 const Interior = () => {
   return (
@@ -18,9 +19,10 @@ const Interior = () => {
     >
       <NextSeo title="Interior" />
       <InteriorHeader />
-      <InteriorCarousell />
+      <InteriorProjects />
       <InteriorFeatures />
-      <InteriorTestimonial />
+      {/* <InteriorTestimonial /> */}
+      <InteriorCarousell />
       <ContactForm />
     </Flex>
   );

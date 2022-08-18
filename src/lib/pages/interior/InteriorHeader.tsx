@@ -7,7 +7,6 @@ import {
   Box,
   Heading,
   Text,
-  Button,
   Image,
   Icon,
   useColorModeValue,
@@ -64,22 +63,6 @@ export default function InteriorHeader() {
             It&apos;s bound to be the talk of your next dinner party. That we
             promise.
           </Text>
-          <Stack
-            spacing={{ base: 4, sm: 6 }}
-            direction={{ base: "column", sm: "row" }}
-          >
-            <Button
-              rounded="full"
-              size="lg"
-              fontWeight="normal"
-              px={6}
-              colorScheme="red"
-              bg="red.400"
-              _hover={{ bg: "red.500" }}
-            >
-              Get started
-            </Button>
-          </Stack>
         </Stack>
         <Flex
           flex={1}
