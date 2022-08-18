@@ -18,10 +18,12 @@ import {
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
-  useBreakpointValue,
   useDisclosure,
 } from "@chakra-ui/react";
+import Image from "next/image";
 import NextLink from "next/link";
+
+import logo from "../../../public/logo.svg";
 
 const NAV_ITEMS: Array<NavItem> = [
   {
@@ -122,7 +124,7 @@ const DesktopNav = () => {
               <NextLink href={navItem.href ?? "#"} passHref>
                 <Link
                   p={2}
-                  fontSize="sm"
+                  fontSize="md"
                   fontWeight={500}
                   color={linkColor}
                   _hover={{
@@ -257,21 +259,16 @@ export default function WithSubnavigation() {
             aria-label="Toggle Navigation"
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-          <Text
-            textAlign={useBreakpointValue({ base: "center", md: "left" })}
-            fontFamily="heading"
-            color={useColorModeValue("gray.800", "white")}
-          >
-            Koke.zen
-          </Text>
-
-          <Flex
-            display={{ base: "none", md: "flex" }}
-            position="absolute"
-            left="50%"
-            transform="translateX(-50%)"
-          >
+        <Flex
+          flex={{ base: 1 }}
+          justify={{ base: "center", md: "start" }}
+          direction="column"
+          align="center"
+          marginTop="10px"
+          alignItems={{ base: "end", md: "center" }}
+        >
+          <Image src={logo} alt="" width="50px" height="50px" />
+          <Flex display={{ base: "none", md: "flex" }} marginY="20px">
             <DesktopNav />
           </Flex>
         </Flex>

@@ -1,7 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 
-import ContactForm from "../../components/ContactForm";
+import ContactForm from "lib/components/ContactForm";
 
 import Hero from "./Hero";
 import InteriorSection from "./InteriorSection";
