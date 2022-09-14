@@ -99,7 +99,7 @@ export default function IntroductionSection() {
           <Image
             rounded="md"
             alt="feature image"
-            src="/assets/introduction.jpeg"
+            src="https://gavinong.mo.cloudinary.net/kokezen/assets/introduction.jpeg"
             objectFit="cover"
           />
         </Flex>

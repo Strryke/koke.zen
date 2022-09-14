@@ -45,7 +45,7 @@ export default function InteriorSection() {
             boxSize={500}
             rounded="md"
             alt="feature image"
-            src="/assets/terrarium.jpeg"
+            src="https://gavinong.mo.cloudinary.net/kokezen/assets/terrarium.jpeg"
             objectFit="cover"
           />
         </Flex>

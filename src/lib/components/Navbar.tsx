@@ -20,10 +20,9 @@ import {
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react";
-import Image from "next/image";
 import NextLink from "next/link";
 
-import logo from "../../../public/logo.svg";
+import Logo from "./Logo";
 
 const NAV_ITEMS: Array<NavItem> = [
   {
@@ -267,7 +266,7 @@ export default function WithSubnavigation() {
           marginTop="10px"
           alignItems={{ base: "end", md: "center" }}
         >
-          <Image src={logo} alt="" width="50px" height="50px" />
+          <Logo />
           <Flex display={{ base: "none", md: "flex" }} marginY="20px">
             <DesktopNav />
           </Flex>

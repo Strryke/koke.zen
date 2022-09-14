@@ -13,7 +13,7 @@ export default function Hero() {
     <Flex
       w="full"
       h="calc(100vh - 100px)"
-      backgroundImage="/assets/hero.jpeg"
+      backgroundImage="https://gavinong.mo.cloudinary.net/kokezen/assets/landing.jpeg"
       backgroundSize="cover"
       backgroundPosition="center center"
     >

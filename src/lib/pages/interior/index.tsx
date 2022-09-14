@@ -3,7 +3,7 @@ import { NextSeo } from "next-seo";
 
 import ContactForm from "lib/components/ContactForm";
 
-import InteriorCarousell from "./InteriorCarousell";
+// import InteriorCarousell from "./InteriorCarousell";
 import InteriorFeatures from "./InteriorFeatures";
 import InteriorHeader from "./InteriorHeader";
 // import InteriorTestimonial from "./InteriorTestimonial";
@@ -22,7 +22,7 @@ const Interior = () => {
       <InteriorProjects />
       <InteriorFeatures />
       {/* <InteriorTestimonial /> */}
-      <InteriorCarousell />
+      {/* <InteriorCarousell /> */}
       <ContactForm />
     </Flex>
   );

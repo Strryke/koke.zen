@@ -94,7 +94,7 @@ export default function InteriorHeader() {
               align="center"
               w="100%"
               h="100%"
-              src="assets/interior/hero.jpeg"
+              src="https://gavinong.mo.cloudinary.net/kokezen/assets/interior/hero.jpeg"
             />
           </Box>
         </Flex>

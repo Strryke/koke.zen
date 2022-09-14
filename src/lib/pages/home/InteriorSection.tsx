@@ -19,7 +19,7 @@ export default function InteriorSection() {
           <Image
             rounded="md"
             alt="feature image"
-            src="/assets/interior.jpeg"
+            src="https://gavinong.mo.cloudinary.net/kokezen/assets/interior.jpeg"
             objectFit="cover"
           />
         </Flex>
@@ -52,7 +52,7 @@ export default function InteriorSection() {
           <Image
             rounded="md"
             alt="feature image"
-            src="/assets/interior.jpeg"
+            src="https://gavinong.mo.cloudinary.net/kokezen/assets/interior.jpeg"
             objectFit="cover"
           />
         </Flex>

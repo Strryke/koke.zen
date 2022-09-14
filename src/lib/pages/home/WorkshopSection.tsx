@@ -19,7 +19,7 @@ export default function WorkshopSection() {
           <Image
             rounded="md"
             alt="feature image"
-            src="/assets/workshop.jpeg"
+            src="https://gavinong.mo.cloudinary.net/kokezen/assets/workshop.jpeg"
             objectFit="cover"
           />
         </Flex>
@@ -51,7 +51,7 @@ export default function WorkshopSection() {
           <Image
             rounded="md"
             alt="feature image"
-            src="/assets/workshop.jpeg"
+            src="https://gavinong.mo.cloudinary.net/kokezen/assets/workshop.jpeg"
             objectFit="cover"
           />
         </Flex>

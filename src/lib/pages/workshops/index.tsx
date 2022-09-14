@@ -4,7 +4,7 @@ import { NextSeo } from "next-seo";
 import ContactForm from "lib/components/ContactForm";
 
 import IntroductionSection from "./IntroductionSection";
-import WorkshopCarousell from "./WorkshopCarousell";
+// import WorkshopCarousell from "./WorkshopCarousell";
 import WorkshopFeatures from "./WorkshopFeatures";
 
 const Workshop = () => {
@@ -18,7 +18,7 @@ const Workshop = () => {
       <NextSeo title="Workshop" />
       {/* <WorkshopHeader /> */}
       <IntroductionSection />
-      <WorkshopCarousell />
+      {/* <WorkshopCarousell /> */}
       <WorkshopFeatures />
       <ContactForm />
     </Flex>
