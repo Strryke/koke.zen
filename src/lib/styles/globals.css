@@ -5,3 +5,24 @@
 .cls-2 {
   fill: #1d1d1b;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(98, 115, 133, 0.3),
+      rgba(98, 115, 133, 0.3)
+    ),
+    url(https://gavinong.mo.cloudinary.net/kokezen/assets/landing.jpeg);
+  object-fit: cover;
+  background-size: cover;
+  height: calc(100vh - 100px);
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -42,7 +42,7 @@ export default function WorkshopSection() {
             catering to all ages for a hands-on experience.
           </Text>
           <Flex>
-            <NextLink href="/interior" passHref>
+            <NextLink href="/workshops" passHref>
               <Link color="teal.500">Learn More</Link>
             </NextLink>
           </Flex>

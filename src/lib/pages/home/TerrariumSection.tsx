@@ -35,7 +35,7 @@ export default function InteriorSection() {
             interior, bringing peace and tranquility to your home or office.
           </Text>
           <Flex>
-            <NextLink href="/interior" passHref>
+            <NextLink href="/terrariums" passHref>
               <Link color="teal.500">Learn More</Link>
             </NextLink>
           </Flex>

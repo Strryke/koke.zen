@@ -1,37 +1,23 @@
 import {
   Box,
   SimpleGrid,
-  Icon,
   Text,
   Stack,
-  Flex,
   Heading,
   Container,
+  Image,
 } from "@chakra-ui/react";
-import type { ReactElement } from "react";
-import { FcAssistant, FcDonate, FcInTransit } from "react-icons/fc";
 
 interface FeatureProps {
   title: string;
   text: string;
-  icon: ReactElement;
+  image: string;
 }
 
-const Feature = ({ title, text, icon }: FeatureProps) => {
+const Feature = ({ title, text, image }: FeatureProps) => {
   return (
     <Stack>
-      <Flex
-        w={16}
-        h={16}
-        align="center"
-        justify="center"
-        color="white"
-        rounded="full"
-        bg="gray.100"
-        mb={1}
-      >
-        {icon}
-      </Flex>
+      <Image src={image} alt={title} height="250px" objectFit="cover" />
       <Text fontWeight={600}>{title}</Text>
       <Text color="gray.600">{text}</Text>
     </Stack>
@@ -58,19 +44,19 @@ export default function InteriorFeatures() {
       </Stack>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
         <Feature
-          icon={<Icon as={FcAssistant} w={10} h={10} />}
-          title="Sustainable"
-          text="How long does our moss last? The first batch of preserved moss was produced nearly a decade ago, and is still looking good."
+          image="https://gavinong.mo.cloudinary.net/kokezen/assets/workshop/Kokezen-24.jpg"
+          title="Walk-in Workshops"
+          text="Interested in a fun weekend activity? Come join us for a workshop and learn how to care for your moss."
         />
         <Feature
-          icon={<Icon as={FcDonate} w={10} h={10} />}
-          title="Zero Maintenance"
-          text="No green fingers? No worries! Preserved moss is extremely low in maintenance – it doesn’t require sunlight nor watering."
+          image="https://gavinong.mo.cloudinary.net/kokezen/assets/workshop/private%20workshop/birthday%20party/IMG_20220613_131606_418.jpg"
+          title="Private Workshops"
+          text="Corporate team building? Birthday party? We can help you create a unique experience for your guests."
         />
         <Feature
-          icon={<Icon as={FcInTransit} w={10} h={10} />}
-          title="Eco Friendly"
-          text="No trees were harmed in the process of making any of our pieces. All our moss are carefully and delicately preserved through an eco – friendly method."
+          image="https://gavinong.mo.cloudinary.net/kokezen/assets/workshop/private%20workshop/birthday%20party/20220612_124537.jpg"
+          title="Family Friendly"
+          text="Terrarium kits are a great way to introduce your kids to the world of plants. Spend quality time with your loved ones and create a beautiful piece of art together."
         />
       </SimpleGrid>
     </Box>

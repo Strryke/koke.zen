@@ -104,7 +104,7 @@ export default function TerrariumHeader() {
               align="center"
               w="100%"
               h="100%"
-              src="assets/terrarium/header.jpeg"
+              src="https://gavinong.mo.cloudinary.net/kokezen/assets/terrarium/header.jpeg"
             />
           </Box>
         </Flex>
